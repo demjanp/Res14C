@@ -1,4 +1,5 @@
-## Radiocarbon Dating Resolution
+## Res14C
+Radiocarbon Dating Resolution Calculator
 
 ## Overview
 
