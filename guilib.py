@@ -32,7 +32,10 @@ class MainApp(tk.Tk):
 		tk.Tk.__init__(self)
 		
 		self.title("Res14C")
-		self.iconbitmap("res14c.ico")
+		try:
+			self.iconbitmap("res14c.ico")
+		except tk.TclError as e:
+			pass
 		
 		frame = tk.Frame(self)
 		frame.pack(padx = 5, pady = 5)
